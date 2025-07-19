@@ -1,0 +1,43 @@
+.Footer-outer-container {
+  background-color: #111;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.Footer-inner-container {
+  width: 80%;
+}
+.Footer-icons {
+  width: 12%;
+  justify-content: space-between;
+  margin: 10px;
+  color: #fff;
+}
+.Footer-data {
+  display: flex;
+  justify-content: space-between;
+}
+.Footer-data ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 12vh;
+}
+.Footer-data ul li {
+  cursor: pointer;
+}
+.service-code {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #fff;
+  width: 10%;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.copy-right {
+  font-size: 12px;
+  margin-bottom: 10px;
+}

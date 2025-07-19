@@ -1,0 +1,34 @@
+.Header-outer-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  height: 10vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+}
+.Header-container {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.Header-left ul {
+  width: 140%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+}
+.Header-right ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+}
